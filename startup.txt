@@ -1,0 +1,7 @@
+conda activate VideoTranslatorEnv
+
+python main.py --video "/path/to/your/video" --output-dir "/path/to/your/output/folder" --config config.yaml
+python main.py --video "E:\Stan Prokopenko - Drawing Tutorials\[Proko] Drawing Basics by Stan Prokopenko\02. intro-to-drawing-basics.mp4" --output-dir "E:/Subs/" --config config.yaml
+
+python main_batch.py --input-dir "/path/to/your/video_folder" --config config.yaml
+python main_batch.py --input-dir "E:\Stan Prokopenko - Drawing Tutorials\[Proko] Drawing Basics by Stan Prokopenko" --config config.yaml

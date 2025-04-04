@@ -1,0 +1,9 @@
+ffmpeg-python
+openai-whisper
+transformers[torch] # For Hugging Face + PyTorch support
+torch             # Install specific version compatible with your CUDA: https://pytorch.org/
+torchaudio        # matching torch version
+torchvision       # matching torch version
+PyYAML
+srt               # Optional, but useful for potential future parsing/manipulation
+python-dotenv     # Good practice for potential API keys, though not used here yet
